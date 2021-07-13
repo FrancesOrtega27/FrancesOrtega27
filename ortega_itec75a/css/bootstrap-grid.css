@@ -329,12 +329,16 @@ html {
 }
 
 @media (min-width: 576px) {
+	
+  .col-sm-699 {flex:1.33;
+	background-color: pink}
+	
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1;
+    flex-grow: 1.10;
     max-width: 100%;
   }
   .col-sm-auto {
